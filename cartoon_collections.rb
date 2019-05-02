@@ -16,10 +16,7 @@ def long_planeteer_calls(words)
 end
 
 def find_the_cheese(array)
-  if array & cheese_types
-    return true
-  else
-    return nil
+    array.each { |food| cheese_types.find?(food) }
   end
 end
   
