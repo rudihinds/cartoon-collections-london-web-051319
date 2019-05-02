@@ -23,6 +23,7 @@ def find_the_cheese(array)
     puts false
   end
   end
+end
 
   
   // take each food from array and pass through cheese_types
