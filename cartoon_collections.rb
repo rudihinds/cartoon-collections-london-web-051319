@@ -18,7 +18,7 @@ end
 def find_the_cheese(array)
     array.each { |food| cheese_types.find?(food) }
   end
-end
+
   
   // take each food from array and pass through cheese_types
   // if any match return type using find
