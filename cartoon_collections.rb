@@ -16,7 +16,8 @@ def long_planeteer_calls(words)
 end
 
 def find_the_cheese(array)
-    array.each { |food| cheese_types.find?(food) }
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  array.each { |food| cheese_types.find?(food) }
   end
 
   
