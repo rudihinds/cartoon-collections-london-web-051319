@@ -24,10 +24,4 @@ end
 return nil
 end
 
-  
-  // take each food from array and pass through cheese_types
-  // if any match return type using find
-  // foodtypes.find {|food| }
-cheese_types = ["cheddar", "gouda", "camembert"]
-end
 
