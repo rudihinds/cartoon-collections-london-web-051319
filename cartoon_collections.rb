@@ -21,6 +21,8 @@ def find_the_cheese(array)
   return food
   end
 end
+return nil
+end
 
   
   // take each food from array and pass through cheese_types
